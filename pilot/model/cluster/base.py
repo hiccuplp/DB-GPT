@@ -21,6 +21,16 @@ class PromptRequest(BaseModel):
     span_id: str = None
 
 
+"""
+上面的代码这样定义类是基于面向对象编程的原则和封装的思想。
+通过这种方式，代码能够更清晰地表示现实世界中的实体和它们的属性。
+
+PromptRequest类只是一个用于保存数据的类，而不需要任何特定的行为或操作。
+或者，方法的实现可能在BaseModel类中，因为PromptRequest继承自BaseModel，
+所以如果BaseModel中定义了方法，PromptRequest会继承这些方法。
+"""
+
+
 class EmbeddingsRequest(BaseModel):
     model: str
     input: List[str]

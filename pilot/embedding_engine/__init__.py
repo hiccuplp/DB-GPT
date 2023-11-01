@@ -10,3 +10,5 @@ __all__ = [
     "KnowledgeType",
     "PreTextSplitter",
 ]
+# 在Python中定义一个 __all__ 变量，它通常在一个模块中定义，这个模块可能是 __init__.py 文件或者是其他Python文件。
+# __all__ 变量用于指定当使用 from module import * 时应该导入哪些名字。
